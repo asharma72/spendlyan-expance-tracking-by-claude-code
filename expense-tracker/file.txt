@@ -1,0 +1,58 @@
+ ▐▛███▜▌   Claude Code v2.1.81
+▝▜█████▛▘  Sonnet 4.6 · Claude Pro
+  ▘▘ ▝▝    E:\expense-tracker\expense-tracker
+
+❯ claude -r                                                                     
+
+● It looks like you typed claude -r — could you clarify what you meant? Are you
+  trying to:
+
+  1. Run a specific Claude Code command with a -r flag?
+  2. Resume a previous conversation?
+  3. Something else entirely?
+
+❯ Unknown skill: claude                                                         
+
+● Args from unknown skill: -r
+
+! claude -r                                                                     
+  ⎿  Error: --resume requires a valid session ID when used with --print. Usage: 
+     claude -p --resume &lt;session-id&gt;
+
+
+❯ claude -r                                                                     
+
+● The -r / --resume flag requires a session ID. Usage:
+
+  claude --resume <session-id>
+
+  To find previous session IDs, you can list recent sessions:
+
+  claude --list-sessions
+
+  Or just run claude without flags to start a new session.
+
+❯ claude --resume                                                               
+
+● claude --resume requires a session ID argument:
+
+  claude --resume <session-id>
+
+  To find your session IDs:
+
+  claude --list-sessions
+
+❯ /rename intro session                                                         
+  ⎿  Session renamed to: intro session
+
+❯ /exit                                                                         
+  ⎿  See ya!
+
+❯ claude                                                                        
+
+● That opens a new Claude Code session in your terminal. Just run it directly in
+   your terminal:
+
+  claude
+
+  Is there something specific you'd like help with in this project?
